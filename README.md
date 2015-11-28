@@ -14,3 +14,5 @@ You can load your crontab into memory by issuing the command
   
 where $INFILE is the system path to your crontab.
 
+Don't use "crontab -e" to edit your crontab anymore, because this won't change your versioned file. Instead, directly edit the file you have in this repos, then reload it into memory with "crontab $INFILE".
+
