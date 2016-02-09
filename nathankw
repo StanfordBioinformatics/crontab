@@ -1,6 +1,6 @@
-0	8,4	*	*	*	bash -l -c “module load gbsc/illumina_pipeline/current python/2.7.9 gbsc/gbsc_utils; start_analyses.py”
+MAILTO=nathankw@stanford.edu
+0	8,16	*	*	*	bash -l -c "module load gbsc/illumina_pipeline/current python/2.7.9 gbsc/gbsc_utils; start_analyses.py"
 0	12	*	*	2,5	bash -l -c "module load gbsc/encode/prod; /srv/gs1/software/gbsc/encode/current/dcc_submit/uploadSequencingResultsIntoSyapse.py --syapse-mode prod -v"
-
 #     FIELD					  	DESCRIPTION
 # 1)  minute 				  	0 through 59
 # 2)  hour 					  	0 through 23
