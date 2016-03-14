@@ -1,5 +1,5 @@
 MAILTO=nathankw@stanford.edu
-0       2       *       *       *       bash -l -c "/usr/local/bin/python ~/repos/netapp_delete_old_runs.py"
+0       12       *       *       *       bash -l -c "/usr/local/bin/python ~/repos/netapp_delete_old_runs.py"
 
 #     FIELD                                             DESCRIPTION
 # 1)  minute                                    0 through 59
