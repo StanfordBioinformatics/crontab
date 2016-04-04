@@ -1,5 +1,5 @@
 MAILTO=nathankw@stanford.edu
-0	*	*	*	*	bash -l -c "module load gbsc/illumina_pipeline/current python/2.7.9 gbsc/gbsc_utils; start_analyses.py"
+#0	*	*	*	*	bash -l -c "module load gbsc/illumina_pipeline/current python/2.7.9 gbsc/gbsc_utils; start_analyses.py"
 0	12	*	*	2,5	bash -l -c "module load gbsc/encode/prod; /srv/gs1/software/gbsc/encode/current/encode/dcc_submit/uploadSequencingResultsIntoSyapse.py --syapse-mode prod"
 0	8,12,16,20	*	*	*	bash -l -c "module load gbsc/encode-scoring/prod; python /srv/gsfs0/software/gbsc/EncodeScoring/Utils/syapseQueryResults_toPipelineInputFormat.py -r -m prod -o readyToScore_$(date +%s%N).txt"
 #     FIELD					  	DESCRIPTION
