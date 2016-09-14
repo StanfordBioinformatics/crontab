@@ -6,7 +6,7 @@ which enters a mode that allows for you to enter commands via standard input) an
 of control-c. As a result, your crontab isn't secure unless it is backed up in version control.
 
 INSTRUCTIONS
-Add your own crontabs here. Each user has one crontab and the file is named after their SUNetID.
+Add your own crontabs here. Each user can have multiple crontab files since there is a crontab per host machine they work with. For each of your crontab files in this repository, name it beginning with your SUNet ID, followed by an underscore, followed by the host name, i.e. nathankw_dirk-new.
 
 You can load your crontab into memory by issuing the command
 
