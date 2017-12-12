@@ -1,0 +1,21 @@
+MAILTO=nathankw@stanford.edu
+0	12	*	*	*	bash -l -c "module load gbsc/scgpm_seqresults_dnanexus; python scgpm_clean_raw_data.py -o org-snyder_encode -d 1"
+0	12	*	*	*	bash -l -c "module load gbsc/scgpm_seqresults_dnanexus; python scgpm_clean_raw_data.py -o org-cescg -d 1"
+
+#This crontab is for CESCG sequencing data download to the UCSC SCHub.
+
+#     FIELD					  	DESCRIPTION
+# 1)  minute 				  	0 through 59
+# 2)  hour 					  	0 through 23
+# 3)  day of month 	  	1 through 31
+# 4)  month 					  1 through 12
+# 5)  day of week 		  0 through 7 (0 or 7 is Sunday, 1 is Monday, etc., or use names)
+# 6)  command 			    This is the complete sequence of commands to be executed for the job
+
+#See http://www.adminschoice.com/crontab-quick-reference for more details on the cron format along with tips.
+
+
+
+
+
+

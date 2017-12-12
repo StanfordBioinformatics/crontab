@@ -1,7 +1,7 @@
 # crontab
 OVERVIEW
 The crontab command can easily overwrite your crontab file, erasing it permanently. This can happen when one either purposefully
-or accidentally invodes crontab with the -r switch. It can also happen if one enters the crontab command without any parameters (
+or accidentally invokes crontab with the -r switch. It can also happen if one enters the crontab command without any parameters (
 which enters a mode that allows for you to enter commands via standard input) and try to get out of it by typing command-d instead
 of control-c. As a result, your crontab isn't secure unless it is backed up in version control.
 
